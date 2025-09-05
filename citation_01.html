@@ -12,13 +12,25 @@
  
 h1 { font-size: 8vw;
     letter-spacing: -0.02em;
+    text-transform: uppercase;
 }
 
 /* Couleur */
-body{background-color: #1d432f;
-    color: aliceblue;
+body{
+    color: rgb(0, 0, 0);
 }
 
+body{
+    background-color: yellow;
+}
+
+body{
+    background-image: url(yellow.jpg);
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
 
 /* mise en page */
 body {
@@ -29,7 +41,14 @@ body {
     flex-direction: column;
 }
 
-h1{max-width: 15ch;}
+h1{max-width: 17ch;}
+
+p{font-size: larger;}
+
+.a{
+    text-align: right;
+}
+
 
 
 </style>
@@ -38,8 +57,9 @@ h1{max-width: 15ch;}
 <body>
     <body>
     </body>
-    <h1>“It took me a few seconds to draw it, but it took me 34 years to learn how to draw it in a few seconds.” 
+    <h1 class="b">“It took me a few seconds to draw it, 
     </h1>
+    <h1 class="a">but it took me 34 years to learn how to draw it in a few seconds.”</h1>
 <p>— Paula Scher</p>
 </body>
 
